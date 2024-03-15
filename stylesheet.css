@@ -1,0 +1,413 @@
+
+header{
+    background-color: #F5F5F5 ;
+    font-size: 20px;
+    padding: 50px;
+    margin: 50px;
+}
+
+footer{
+    background-color: #F5F5F5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 50px;
+    margin: 50px;
+}
+
+p{
+    width: 150%;
+   
+}
+
+h2{
+ 
+    font-size: 40px;
+}
+
+h3{
+   
+    font-size: 30px;
+}
+
+p:hover {
+    background:#F5F5F5;
+    }
+
+ul.hover{
+    background:#F5F5F5
+}
+
+.nav_header{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+
+/*homepage*/
+
+.homepage_main{
+    display: grid; 
+    grid-template-columns: 10% 30% 30%; 
+    padding: 50px;
+    margin: 50px;
+    grid-gap: 15px;
+}
+
+.welcome_img{
+    width: 40%;
+}
+
+
+.php{
+    width: 60%;
+    border-radius: 30%;
+}
+
+/*2024 illustrations*/
+
+.illustration_main{
+    display: grid; 
+    grid-template-columns: 10% 30% 30%; 
+    padding: 5px;
+    margin: 50px;
+    grid-gap: 15px;
+}
+
+.illustrationArticle_2024{
+    display: grid; 
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 320px;
+}
+
+.highlightImg_2024{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.illustSize_Mint{
+    width: 400%;
+}
+
+.illustSize_egg{
+    width: 150%;
+}
+
+.illustSize_Mint:hover{
+    scale: 1.5;
+}
+
+.illustSize_egg:hover{
+    scale: 1.5;
+}
+
+
+
+/*2023 illustrations */
+
+.illustration2023_main{
+    display: grid; 
+    grid-template-columns: 20% 30% 30%; 
+    padding: 5px;
+    margin: 50px;
+    grid-gap: 15px;
+}
+
+.illustration2023_highlight{
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+}
+
+.highlightImg_2023{
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+.illustrationArticle_2023{
+    display: grid; 
+    grid-template-columns: 50% 50% 37%;
+    grid-gap: 270px;
+}
+
+.illustrationArticleOthers_2023{
+    display: grid; 
+    grid-template-columns: 50% 63% 37%;
+    grid-gap: 160px;
+}
+
+.illustSize_witchExtra{
+    width: 200%;
+}
+
+.illustSize_fanArt{
+    width:100%;
+}
+
+.illustSize_others{
+    width: 150%;
+}
+
+.illustSize_fanArt:hover{
+    scale: 1.5;
+}
+
+.illustSize_witchExtra:hover{
+    scale: 1.5;
+}
+
+.illustSize_others:hover{
+    scale: 1.5;
+}
+
+/*2022 illustrations */
+.highlightImg_2022{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.illustration2022_main{
+    display: grid; 
+    grid-template-columns: 20% 30% 30%; 
+    padding: 5px;
+    margin: 50px;
+    grid-gap: 15px;
+}
+
+
+.illustSize2022_Mint{
+    width:100%;
+}
+
+.illustSize2022_others{
+    width:150%;
+}
+
+.illustrationArticleOthers_2022{
+    display: grid; 
+    grid-template-columns: 35% 55% 80%;
+    grid-gap: 160px;
+}
+
+.illustSize2022_Mint:hover{
+    scale: 1.5;
+}
+
+.illustSize2022_others:hover{
+    scale: 1.5;
+}
+
+/*2021 illustrations*/
+.illustration2021_highlight{
+    display: grid; 
+    padding: 5px;
+    margin: 50px;
+    grid-gap: 15px;
+}
+
+.highlightImg_2021{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.highlightImg2_2021{
+    width:100%;
+    border-radius: 5%;
+}
+
+.illustration2021_main{
+    display: grid; 
+    grid-template-columns: 20% 30% 30%; 
+    padding: 5px;
+    margin: 50px;
+    grid-gap: 15px;
+}
+
+.illustrationWhoIsTheWitch_2021{
+    display: grid; 
+    grid-template-columns: 50% 60% ;
+    grid-gap: 160px;
+}
+
+.illustSize2021_whoIsTheWitch{
+    width: 160%;
+}
+
+.illustrationInnocentDemon_2021{
+    display: grid; 
+    grid-template-columns: 40% 33% 40% 50%;
+    grid-gap: 160px;
+}
+
+.illustSize2021_InnocentDemon{
+    width:160%;
+}
+
+.illustrationArticleFanArt_2021{
+    display: grid; 
+    grid-template-columns: 39% 55% 55%;
+    grid-gap: 180px;
+}
+
+.illustSize2021_fanArt{
+    width:160%;
+}
+
+.illustrationArticleOthers_2021{
+    display: grid; 
+    grid-template-columns: 40% 45% 48% 34%;
+    grid-gap: 160px;
+}
+
+.illustSize2021_others{
+    width: 160%;
+}
+
+.illustSize2021_whoIsTheWitch:hover{
+    scale: 1.5;
+}
+
+.illustSize2021_InnocentDemon:hover{
+    scale: 1.5;
+}
+
+.illustSize2021_fanArt:hover{
+    scale: 1.5;
+}
+
+.illustSize2021_others:hover{
+    scale: 1.5;
+}
+
+/* 2020 illustrations*/
+.illustration2020_main{
+    display: grid; 
+    grid-template-columns: 20% 30% 30%; 
+    padding: 5px;
+    margin: 50px;
+    grid-gap: 15px;
+}
+
+.illustrationAPearlWish_2020{
+    display: grid; 
+    grid-template-columns: 41% 41% 41% 41%;
+    grid-gap: 160px;
+}
+
+.illustSize2020_aPearlWish{
+    width:170%;
+}
+
+.illustSize2020_mint{
+    width:100%;
+}
+.illustSize2021_fanArt{
+    width:100%;
+}
+
+.illustrationArticleOthers_2020{
+    display: grid; 
+    grid-template-columns: 41% 41% 41% 41%;
+    grid-gap: 180px;
+}
+
+.illustSize2020_others{
+    width:180%;
+}
+
+.illustrationArtStudy_2020{
+    display: grid; 
+    grid-template-columns: 40% 40%;
+    grid-gap: 340px;
+}
+
+.illustSize2020_artStudy{
+    width: 250%;
+}
+
+.illustSize2020_aPearlWish:hover{
+    scale: 1.5;
+}
+
+.illustSize2020_mint:hover{
+    scale: 1.5;
+}
+
+.illustSize2021_fanArt:hover{
+    scale: 1.5;
+}
+
+.illustSize2020_others:hover{
+    scale: 1.5;
+}
+
+.illustSize2020_artStudy:hover{
+    scale: 1.5;
+}
+
+/*comics*/
+
+.DragonCat_main{
+    display: grid; 
+    grid-template-columns: 50% 20% ; 
+    padding: 50px;
+    margin: 50px;
+    grid-gap: 15px;
+}
+
+.DragonCatComic{
+    width:70%;
+    border-radius: 10%;
+}
+
+.p.comic{
+    width:15%;
+}
+.DragonCat_pages{
+    padding: 50px;
+    margin: 50px;
+}
+.DragonCatComic_pages{
+    width: 50%;
+}
+
+.WhoIsTheWitch_main{
+    display: grid; 
+    grid-template-columns: 20% 50% ; 
+    padding: 50px;
+    margin: 50;
+    grid-gap: 1px;
+}
+
+.whoIsTheWitch{
+    width:50%;
+    border-radius:10%;
+}
+
+.witch_pages{
+    padding: 50px;
+    margin: 50px;
+}
+
+.witchComic_pages{
+    width:50%;
+}
+
+.DragonCatComic:hover{
+    scale: 1.5;
+}
+
+.whoIsTheWitch:hover{
+    scale: 1.5;
+}
+
+
+
+/*contact Information*/
+
+.contact_main{
+    padding: 1px;
+    margin: 50px;
+}
+
+.contact_list{
+    margin: 10px;
+}
